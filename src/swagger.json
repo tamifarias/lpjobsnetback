@@ -25,16 +25,55 @@
               "application/json": {
                 "schema": {
                   "properties": {
-                    "name": {
+                    "nome": {
                       "type": "string"
                     },
-                    "gender": {
+                    "cargo": {
                       "type": "string"
                     },
+                    "dtnascimento": {
+                      "type": "string"
+                    },
+                    "estadocivil": {
+                      "type": "string"
+                    },
+                    "sexo": {
+                      "type": "string"
+                    },
+                    "endereco": {
+                      "type": "string"
+                    },
+                    "bairro": {
+                      "type": "string"
+                    },
+                    "cidade": {
+                      "type": "string"
+                    },                    
                     "cep": {
+                      "type": "number"
+                    },
+                    "telnum": {
+                      "type": "number"
+                    },
+                    "telnum2": {
+                      "type": "number"
+                    },
+                    "celular": {
+                      "type": "number"
+                    },                    
+                    "email": {
                       "type": "string"
                     },
-                    "email": {
+                    "identidade": {
+                      "type": "number"
+                    },
+                    "cpf": {
+                      "type": "number"
+                    },
+                    "veiculo": {
+                      "type": "string"
+                    },
+                    "habilitacao": {
                       "type": "string"
                     }
                   }
@@ -42,10 +81,23 @@
                 "examples": {
                   "candidato": {
                     "value": {
-                      "name": "Tamires Farias Cruz",
-                      "gender": "Feminino Cis",
-                      "cep": "00000-000",
-                      "email": "tamiresfariasc@gmail.com"
+                      "nome": "Tamires Farias Cruz",
+                      "cargo": "Desenvolvedora",
+                      "dtnascimento": "01/05/1988",
+                      "estadocivil": "Solteiro(a)",
+                      "sexo": "F",
+                      "endereco": "Rua Agdgfd",
+                      "bairro": "Bairro B",
+                      "cidade": "Cidade C",
+                      "cep": "41589632",
+                      "telnum": "3698522",
+                      "telnum2": "3487596",
+                      "celular": "988774536",
+                      "email": "tamiresfariascrf@gmail.com",
+                      "identidade": "11698523574",
+                      "cpf": "02586987741",
+                      "veiculo": "Sim",
+                      "habilitacao": "Sim"
                     }
                   }
                 }
